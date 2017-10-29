@@ -9,8 +9,8 @@ namespace CoreRestPermutations
     public class ArrayPermutations : IDisposable
     {
         private readonly List<ReturnValue> _existing;
-        private List<ReturnValue> _generated;
-        private PermutationsData _database;
+        private readonly List<ReturnValue> _generated;
+        private readonly PermutationsData _database;
 
         public ArrayPermutations()
         {

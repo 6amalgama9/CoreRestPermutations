@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 
-namespace CoreRestPermutations
+namespace CoreRestPermutations.DAL
 {
     public class OriginalValues
     {
@@ -38,6 +35,6 @@ namespace CoreRestPermutations
         protected override void OnConfiguring(DbContextOptionsBuilder options)
         {
             options.UseNpgsql("Host=postgres64.1gb.ru;Port=5432;Database=xgb_temporary;Username=xgb_temporary;Password=5d3b92afwr;EntityAdminDatabase=xgb_temporary");
-}
+        }
     }
 }
