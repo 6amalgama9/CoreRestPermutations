@@ -2,4 +2,8 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/.vs/CoreRestPermutations/v15
+/.vs
+/CoreRestPermutations/bin
+/CoreRestPermutations/obj
+*.user
+/CoreRestPermutations/Migrations

@@ -1,2 +1,2 @@
 # CoreRestPermutations
-.NET Core Web API, geenrate unique Permutations for string elements
+.NET Core Web API, generate unique Permutations for string elements
